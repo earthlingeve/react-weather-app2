@@ -7,6 +7,9 @@ function App() {
       <header className="App-header">
         <Form />
       </header>
+      <a href="https://github.com/earthlingeve/react-weather-app2">
+        coded by Evelyn Alanis
+      </a>
     </div>
   );
 }
