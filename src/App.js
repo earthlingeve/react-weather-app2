@@ -1,17 +1,20 @@
 import "./App.css";
-import Form from "./Form.js";
-import "./Form.css";
+import Weather from "./Weather.js";
+import "./Weather.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <strong>Weather App</strong>
-        <Form />
-      </header>
-      <a href="https://github.com/earthlingeve/react-weather-app2">
-        coded by Evelyn Alanis
-      </a>
+      <div className="container">
+        <header className="App-header">
+          <Weather />
+        </header>
+        <footer className="git-link">
+          <a href="https://github.com/earthlingeve/react-weather-app2">
+            coded by Evelyn Alanis
+          </a>
+        </footer>
+      </div>
     </div>
   );
 }

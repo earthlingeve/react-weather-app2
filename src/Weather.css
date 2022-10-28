@@ -1,0 +1,22 @@
+.Weather {
+  margin-top: 25px;
+}
+.search-engine {
+  margin-bottom: 20px;
+}
+.temperature {
+  font-size: 40px;
+  font-weight: bold;
+}
+.current-temp {
+  line-height: 40px;
+}
+.unit {
+  position: relative;
+  top: -18px;
+  left: 5px;
+}
+.current-conditions {
+  margin-top: 35px;
+  list-style-type: none;
+}
