@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <div className="container">
         <header className="App-header">
-          <Weather />
+          <Weather defaultCity="Chicago" />
         </header>
         <footer className="git-link">
           <a href="https://github.com/earthlingeve/react-weather-app2">
