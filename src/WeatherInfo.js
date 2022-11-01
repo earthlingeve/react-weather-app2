@@ -1,6 +1,7 @@
 import React from "react";
-import axios from "axios";
+//import axios from "axios";
 import TimeStamp from "./TimeStamp.js";
+import WeatherTemp from "./WeatherTemp.js";
 
 export default function WeatherInfo(props) {
   return (
@@ -18,10 +19,7 @@ export default function WeatherInfo(props) {
             alt={props.data.description}
             className="float-left"
           />
-          <span className="temperature">
-            {Math.round(props.data.temperature)}
-          </span>
-          <span className="unit">°F</span>
+          <WeatherTemp fahrenheit={props.data.temperature} />
         </div>
       </div>
       <div className="col-6">
