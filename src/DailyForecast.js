@@ -1,6 +1,6 @@
-import { cleanup } from "@testing-library/react";
+//import { cleanup } from "@testing-library/react";
 import axios from "axios";
-import React, { useState, useEffect, useLayoutEffect } from "react";
+import React, { useState, useEffect } from "react";
 import "./DailyForecast.css";
 import WeatherForecastDay from "./WeatherForecastDay";
 
@@ -31,6 +31,8 @@ export default function DailyForecast(props) {
                   <WeatherForecastDay data={dailyForecast} />
                 </div>
               );
+            } else {
+              return null;
             }
           })}
         </div>
